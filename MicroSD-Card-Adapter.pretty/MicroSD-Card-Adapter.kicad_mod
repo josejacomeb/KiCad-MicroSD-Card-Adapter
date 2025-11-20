@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 2 0)
+		(at 0.5 -2.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "913bc69e-4f09-4552-8681-20096be36c71")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "MicroSD-Card-Adapter"
-		(at 0 4 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "18b0e7b6-c946-46bc-b00e-ac0e804bfbd4")
@@ -55,47 +55,47 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -12.5 -2)
-		(end 12.5 -2)
+		(start -12.595223 -8)
+		(end 12.404777 -8)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7bf4a8ee-11cc-46a0-99b6-336704eabbc5")
+		(uuid "362a78c5-7f50-4b96-8900-c7f99ea093ec")
 	)
 	(fp_line
-		(start -12.5 40)
-		(end -12.5 -2)
+		(start -12.595223 2)
+		(end -12.595223 -8)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8e6f24c5-50da-48af-8291-5ffaf211b24b")
+		(uuid "ef8eba67-a81b-478b-874d-1985bbc4e47a")
 	)
 	(fp_line
-		(start 12.5 -2)
-		(end 12.5 40)
+		(start 12.404777 -8)
+		(end 12.404777 2)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "64f2f9bc-5682-46f4-8624-c11ec9a45979")
+		(uuid "9ebdcb3b-959c-4976-82ff-14ffe199f2b7")
 	)
 	(fp_line
-		(start 12.5 40)
-		(end -12.5 40)
+		(start 12.404777 2)
+		(end -12.595223 2)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a7b94258-934f-4178-ba51-abfcca1d761f")
+		(uuid "e5339ec4-3cd0-4d68-afc2-039233f7ce3f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 6 0)
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "477e7d3e-d37a-456b-8997-53458d73fb30")
@@ -159,7 +159,7 @@
 		(net 0)
 		(net_name "")
 		(layer "F.SilkS")
-		(uuid "c8b48eb2-c104-45e9-8225-cb9e83dbe7ab")
+		(uuid "a9cf1d49-eea4-4117-826d-56e8b136cea4")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -169,8 +169,8 @@
 		(keepout
 			(tracks allowed)
 			(vias allowed)
-			(pads not_allowed)
-			(copperpour allowed)
+			(pads allowed)
+			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
 		(placement
@@ -183,12 +183,12 @@
 		)
 		(polygon
 			(pts
-				(xy -12.5 -2) (xy 12.5 -2) (xy 12.5 40) (xy -12.5 40)
+				(xy -12.595223 -8) (xy 12.404777 -8) (xy 12.404777 2) (xy -12.595223 2)
 			)
 		)
 	)
 	(embedded_fonts no)
-	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/MicroSD-Card-Adapter/micro_sdCard.step"
+	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/Schematics/kicad-libraries/MicroSD-Card-Adapter/micro_sdCard.step"
 		(offset
 			(xyz 0 -7 3.5)
 		)
